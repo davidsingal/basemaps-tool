@@ -10,7 +10,7 @@ const Header: React.FC = () => {
       <div className="text-foreground/50">by David Inga</div>
       <div className="flex flex-1 items-center justify-end">
         <a
-          href="https://github.com/davidsingal/layer-compare-tool/issues"
+          href="https://github.com/davidsingal/basemaps-tool/issues"
           className={cn(buttonVariants({ variant: 'outline' }))}
           target="_blank"
         >
