@@ -1,7 +1,42 @@
 [
   {
+    "id": "osm",
+    "name": "Open Street Map",
+    "source": {
+      "type": "raster",
+      "tiles": [
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    },
+    "layers": [
+      {
+        "type": "raster"
+      }
+    ],
+    "thumbnail": "https://tile.openstreetmap.org/0/0/0.png"
+  },
+  {
+    "id": "world-imagery-esri",
+    "name": "World Imagery - ESRI",
+    "source": {
+      "type": "raster",
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ],
+      "tileSize": 256,
+      "scheme": "xyz"
+    },
+    "layers": [
+      {
+        "type": "raster"
+      }
+    ],
+    "thumbnail": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/0/0/0.png"
+  },
+  {
     "id": "carto-raster",
-    "name": "Carto Raster",
+    "name": "Carto Raster Light",
     "source": {
       "type": "raster",
       "tiles": [
@@ -16,11 +51,12 @@
       {
         "type": "raster"
       }
-    ]
+    ],
+    "thumbnail": "https://a.basemaps.cartocdn.com/light_all/0/0/0.png"
   },
   {
     "id": "carto-raster-dark",
-    "name": "Carto Raster",
+    "name": "Carto Raster Dark",
     "source": {
       "type": "raster",
       "tiles": [
@@ -35,6 +71,27 @@
       {
         "type": "raster"
       }
-    ]
+    ],
+    "thumbnail": "https://a.basemaps.cartocdn.com/dark_all/0/0/0.png"
+  },
+  {
+    "id": "carto-voyager",
+    "name": "Carto Voyager",
+    "source": {
+      "type": "raster",
+      "tiles": [
+        "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://d.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    },
+    "layers": [
+      {
+        "type": "raster"
+      }
+    ],
+    "thumbnail": "https://a.basemaps.cartocdn.com/rastertiles/voyager/0/0/0.png"
   }
 ]

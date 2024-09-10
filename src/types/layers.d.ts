@@ -5,4 +5,5 @@ export type LayerSpec = {
   name: string;
   source: SourceProps;
   layers: LayerProps[];
+  thumbnail?: string;
 };

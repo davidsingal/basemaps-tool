@@ -13,8 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Basemaps Visualizer Tool',
-  description:
-    'A tool to compare Raster, COG and WMS layers. Analyze and visualize geospatial data. Perfect for GIS professionals looking to enhance mapping accuracy and efficiency.',
+  description: 'A tool to visualize a collection of basemaps for Maplibre and Mapbox projects.',
 };
 
 export default function RootLayout({

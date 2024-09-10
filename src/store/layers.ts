@@ -1,5 +1,9 @@
 import { atom } from 'jotai';
 
+import basemapsData from '@/data/basemaps.json';
+
 import type { LayerSpec } from '@/types/layers';
 
-export const layersAtom = atom<LayerSpec[]>([]);
+const basemaps = basemapsData as LayerSpec[];
+
+export const layersAtom = atom<LayerSpec>(basemaps[0]);
