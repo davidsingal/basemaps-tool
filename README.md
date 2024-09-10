@@ -1,8 +1,8 @@
-# Raster, COG, WMS layer comparison tool
+# Basemap Visualizer tool
 
-A tool to compare Raster, COG and WMS layers. Analyze and visualize geospatial data. Perfect for GIS professionals looking to enhance mapping accuracy and efficiency.
+A tool to visualize basemaps to use in Mapbox and Maplibre webmapping projects.
 
-![Tool screenshot](https://layer-compare-tool.davidsingal.com/screenshot.png)
+![Tool screenshot](https://basemap-tool.davidsingal.com/screenshot.png)
 
 ## Development
 
